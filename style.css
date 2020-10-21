@@ -1,0 +1,122 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+.headercontainer
+{
+    background-image: url(img/NRcrni.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navcontainer
+{
+    width: 80%;
+    height: 80px;
+    background-color: transparent;
+    margin: 3% 0 0 10%;
+    position: fixed;
+    display: flex;
+    opacity: 0.8;
+}
+
+.navlogo
+{
+    flex: 1;
+    background-color: black;
+    background-image: url('img/rsz_1smalldzoni.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.navmenu
+{
+    flex: 2;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 44%, rgba(147,147,147,1) 100%);
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.navmenu a
+{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 2rem;
+    transition: 1.2s;
+}
+
+.navmenu a:hover
+{
+    color: yellowgreen;
+    transition: 1.2s;
+}
+
+.nikolica
+{
+    width: 60%;
+    height: 100px;
+    bottom: 0;
+    margin: 8% 20%;
+    text-align: justify;
+    color: #ffffff;
+    position: absolute;
+}
+
+.mainfooter
+{
+    width: 100%;
+    height: 150px;
+    background: rgb(48,48,48);
+background: linear-gradient(0deg, rgba(48,48,48,1) 0%, rgba(23,23,23,1) 6%, rgba(0,0,0,1) 100%);
+    margin: auto;
+    display: flex;
+    color: #ffffff;
+}
+
+.mainfooter1
+{
+    flex: 1;
+    background-color: transparent;
+    justify-content: center;
+}
+.mainfooter1 p
+{
+    margin: 20px;
+}
+
+.mainfooter2
+{
+    flex: 1;
+    background-color: transparent;
+}
+.mainfooter2 p
+{
+    margin: 20px;
+}
+
+.mainfooter3
+{
+    flex: 1;
+    background-color: transparent;
+}
+.mainfooter3 p 
+{
+    margin: 20px;
+}
